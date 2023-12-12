@@ -3,3 +3,15 @@
 
 const nome = 'João';
 console.log(nome);
+
+const primeiroNumero = 6;
+const segundoNumero = 9;
+
+const resultado = primeiroNumero * segundoNumero;
+console.log(resultado);
+
+//curiosidade, para ver o tipo de uma variavel utilizar o comando abaixo.
+
+console.log(typeof(primeiroNumero));
+
+//OBS: String + int = STRING

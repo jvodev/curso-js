@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios aula 13</title>
+</head>
+<body>
+    <script>
+        const nome = prompt('Digite o seu nome completo:');
+    
+        const quantidade = nome.length
+            const segunda = nome.charAt(1)
+                const indice = nome.indexOf('a')
+                    const ultimoIndice = nome.lastIndexOf('a')
+                        const tresUltimas = nome.substring(22)
+                            const maiuscula = nome.toUpperCase()
+                                const minuscula = nome.toLocaleLowerCase()
+
+        document.body.innerHTML += `O seu nome é: ${nome} <br />`;
+            document.body.innerHTML += `Seu nome tem ${quantidade} letras <br />`;
+                document.body.innerHTML += `A segunda letra do seu nome é a letra "${segunda}": <br />`;
+                    document.body.innerHTML += `Qual o primeiro índice da letra "a" no seu nome? ${indice}<br />`;
+                        document.body.innerHTML += `Qual o último índice da letra "a" no seu nome? ${ultimoIndice} <br />`;
+                            document.body.innerHTML += `As últimas 3 letras do seu nome são: "${tresUltimas}"<br />`;
+                                document.body.innerHTML += `Seu nome com letras maiúsculas: ${maiuscula}<br />`;
+                                    document.body.innerHTML += `Seu nome com letras minúsculas: ${minuscula}<br />`;
+    </script>
+</body>
+</html>
